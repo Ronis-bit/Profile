@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Futuristik - Minimalis</title>
+    <!-- Font Modern: Outfit (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="glass-panel">
+        <div class="nav-brand">
+            <div class="logo">PORTFOLIO</div>
+            <div class="mobile-controls">
+                <button class="theme-btn mobile-only" aria-label="Ganti Tema">☀</button>
+                <div id="mobile-menu" class="dropdown mobile-only">
+                    <button id="menu-close" class="dropbtn">☰ Menu</button>
+                    <div class="dropdown-content glass-panel scroll-anim anim-zoom delay-200">
+                        <a href="#about">Tentang</a>
+                        <a href="#skills">Keahlian</a>
+                        <a href="#gallery">Galeri</a>
+                        <a href="#contact">Kontak</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#skills">Keahlian</a></li>
+            <li><a href="#gallery">Galeri</a></li> <!-- Updated Link -->
+            <li><a href="#contact">Kontak</a></li>
+            <li><button id="theme-toggle" class="theme-btn" aria-label="Ganti Tema">☀</button></li>
+        </ul>
+    </nav>
+
+    <!-- Header / Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="container hero-container">
+            <!-- Text Side -->
+            <div class="hero-text">
+                <h1 class="neon-text scroll-anim anim-left">MUHAMMAD TABRONI</h1>
+                <h2 class="role scroll-anim anim-left delay-200">I am a <span class="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="tagline scroll-anim anim-left delay-400">Seorang mahasiswa Matematika di Universitas Mataram yang memiliki passion mendalam dalam dunia elektronika. Menggabungkan ketelitian matematis dengan kreativitas teknis untuk menciptakan solusi inovatif.</p>
+                <div class="hero-buttons scroll-anim anim-left delay-600">
+                    <a href="#gallery" class="btn-primary">Galeri ke-Tampanan ku</a>
+                </div>
+            </div>
+            
+            <!-- Photo Side -->
+            <div class="hero-photo scroll-anim anim-right delay-400">
+                <div class="glass-card photo-card floating-anim">
+                    <div class="photo-placeholder">
+                        <img src="images/roni4.jpg" alt="Foto Profil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-anim anim-left">Tentang Saya</h2>
+            <div class="glass-card about-content scroll-anim anim-zoom delay-200">
+                <p>
+Lulusan Teknik Elektronika Industri terbaik angkatan 2021 dengan keahlian dalam sistem kontrol, otomasi, dan maintenance
+peralatan industri. Terampil menggunakan PLC, analisis masalah teknis, serta berorientasi pada
+efisiensi dan inovasi di lingkungan kerja.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keahlian -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-anim anim-right">Keahlian</h2>
+            <div class="skills-grid">
+                <!-- Skill 1 -->
+                <div class="skill-item scroll-anim anim-zoom delay-100">
+                    <div class="skill-info">
+                        <span>Microsoft Office</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <!-- Skill 2 -->
+                <div class="skill-item scroll-anim anim-zoom delay-200">
+                    <div class="skill-info">
+                        <span>Web Designer & Developer</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+                <!-- Skill 3 -->
+                <div class="skill-item scroll-anim anim-zoom delay-300">
+                    <div class="skill-info">
+                        <span>Electronics & Microcontroller</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-anim align-center anim-left">Galeri Foto</h2>
+            <div class="carousel-container scroll-anim anim-zoom delay-200">
+                <div class="gallery-carousel">
+                    <!-- Gallery Item 1 -->
+                    <div class="glass-card gallery-item">
+                        <div class="gallery-placeholder">
+                            <!-- Placeholder Image (For Demo) -->
+                            <img src="images/roni1.jpg" alt="Foto 1" style="width:100%; height:100%; object-fit:cover; opacity: 0.7;">
+                        </div>
+                        <div class="gallery-caption"></div>
+                    </div>
+                    <!-- Gallery Item 2 -->
+                    <div class="glass-card gallery-item">
+                        <div class="gallery-placeholder">
+                            <img src="images/roni3.jpg" alt="Foto 2" style="width:100%; height:100%; object-fit:cover; opacity: 0.7;">
+                        </div>
+                        <div class="gallery-caption"></div>
+                    </div>
+                    <!-- Gallery Item 3 -->
+                    <div class="glass-card gallery-item">
+                        <div class="gallery-placeholder">
+                            <img src="images/roni6.jpg" alt="Foto 3" style="width:100%; height:100%; object-fit:cover; opacity: 0.7;">
+                        </div>
+                        <div class="gallery-caption"></div>
+                    </div>
+                     <!-- Gallery Item 4 -->
+                     <div class="glass-card gallery-item">
+                        <div class="gallery-placeholder">
+                            <img src="images/roni2.jpg" alt="Foto 4" style="width:100%; height:100%; object-fit:cover; opacity: 0.7;">
+                        </div>
+                        <div class="gallery-caption"></div>
+                    </div>
+                    <!-- Duplicate items for loop effect if needed, or JS will handle infinite scroll -->
+                </div>
+            </div>
+            <p style="text-align:center; margin-top:10px; font-size:0.9rem; color:var(--text-secondary);">(Geser untuk melihat, Klik untuk menahan)</p>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title scroll-anim anim-right">Hubungi Saya</h2>
+            <div class="glass-card contact-card scroll-anim anim-zoom delay-200">
+                <p>Tertarik bekerja sama? Kirimkan pesan melalui kontak dibawah ini.</p>
+        <div class="contact-grid">
+          <a href="mailto:muhammadtabroni13@gmail.com" class="contact-btn" title="Email">
+            <span class="btn-icon"><i class="fas fa-envelope"></i></span>
+          </a>
+          <a href="https://wa.me/628980713528?text=Salam,%20Yang%20Mulia?%20" class="contact-btn" title="WhatsApp">
+            <span class="btn-icon"><i class="fab fa-whatsapp"></i></span>
+          </a>
+          <a href="https://www.instagram.com/this.ronx/" class="contact-btn" title="Instagram">
+            <span class="btn-icon"><i class="fab fa-instagram"></i></span>
+          </a>
+        </div>
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="scroll-anim">&copy; 2025 Muhammad Tabroni. Dibuat dengan <span class="neon-accent">Hati</span>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
